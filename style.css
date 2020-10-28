@@ -1,16 +1,17 @@
 body {
-    background: linear-gradient(#E1BEE7 0%,#90CAF9 100%);
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
     text-align: center;
     margin: 0;
     padding-top: 150px;
 }
-#myhobby{
+
+#myhobby {
     font-size: 30px;
     line-height: 1.2;
     font-family: 'Cinzel Decorative', cursive;
 }
 
-#about{
+#about {
     font-size: 20px;
     line-height: 1.2;
     font-family: sans-serif;
@@ -20,7 +21,8 @@ img {
     border-radius: 50px;
     width: 150px;
 }
-.menu{
+
+.menu {
     list-style: none;
     font-family: sans-serif;
     position: absolute;
@@ -29,35 +31,52 @@ img {
     z-index: 10;
     cursor: pointer;
 }
-.line{
+
+.line {
     height: 6px;
     background-color: white;
     width: 70px;
     margin: 8px auto;
 }
 
-.links{
-    float: left;
+.links {
+    display: inline;
     color: white;
     padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     padding-bottom: 5px;
-    font-family: fantasy;
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: dodgerblue;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-img{
+
+img {
     transition: transform .2s;
     border: 10px solid #AAAAAA;
     height: 250px;
     width: 250px;
 }
-img:hover{
+
+img:hover {
     transform: scale(0.9);
+}
+
+#contact {
+    background: #03befc;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
 }
